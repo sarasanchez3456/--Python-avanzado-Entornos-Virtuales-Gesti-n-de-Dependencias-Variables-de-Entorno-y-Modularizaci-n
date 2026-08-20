@@ -25,6 +25,27 @@ Para que este programa funcione en su computador, necesita tener instalado:
 
 El proyecto está organizado para separar las diferentes tareas en archivos distintos, de manera que el código no se mezcle y sea más fácil de leer. La estructura principal está dentro de una carpeta llamada `app`, que se divide en subcarpetas.
 
+### Estructura de carpetas y archivos
+
+```text
+sistema_usuarios/
+├── app/
+│   ├── __init__.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── settings.py
+│   └── usuarios/
+│       ├── __init__.py
+│       ├── gestor.py
+│       └── validaciones.py
+├── .env
+├── .env.example
+├── .gitignore
+├── main.py
+├── README.md
+└── requirements.txt
+```
+
 ### ¿Cómo se organizó el proyecto?
 El proyecto se organizó agrupando los archivos según su propósito:
 - La configuración está separada en la carpeta `config`.
