@@ -2,26 +2,6 @@
 
 Este es un proyecto creado en Python. Sirve para registrar, listar y buscar usuarios usando la consola de comandos. El proyecto está dividido en varias partes pequeñas para que sea más fácil de entender y organizar.
 
-# Estructura del proyecto
-
-sistema_usuarios/
-│── app/
-│ │── init .py
-│ │── usuarios/
-│ │ │── init .py
-│ │ │── gestor.py
-│ │ │── validaciones.py
-│ │
-│ │── config/
-│ │ │── init .py
-│ │ │── settings.py
-│
-│── .env
-│── main.py
-│── requirements.txt
-│── README.md
-|── .env.example
-
 ## Requisitos Previos
 
 Para que este programa funcione en su computador, necesita tener instalado:
